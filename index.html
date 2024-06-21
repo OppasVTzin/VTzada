@@ -25,12 +25,22 @@
 
     <p>
         <label>Agilidade:</label>
-        <input type="number" id="Agilidade" min="100" max="1000">
+        <input type="number" id="Agilidade">
         <label>Armadura:</label>
-        <input type="number" id="Armadura" min="10" max="100">
+        <input type="number" id="Armadura">
         <label>Defesa:</label>
         <input type="number" id="Defesa" disabled>
     </p>
+    <ul>
+        <input type="number" id="Random1" disabled><button id="d4" onclick="Interact_random(4)">4</button><br>
+        <input type="number" id="Random2" disabled><button id="d6" onclick="Interact_random(6)">6</button><br>
+        <input type="number" id="Random3" disabled><button id="d8" onclick="Interact_random(8)">8</button><br>
+        <input type="number" id="Random4" disabled><button id="d10" onclick="Interact_random(10)">10</button><br>
+        <input type="number" id="Random5" disabled><button id="d12" onclick="Interact_random(12)">12</button><br>
+        <input type="number" id="Random6" disabled><button id="d20" onclick="Interact_random(20)">20</button><br>
+        <input type="number" id="Random7" disabled><button id="d100" onclick="Interact_random(100)">100</button><br>
+        <input type="number" id="Random8" disabled><button id="d1000" onclick="Interact_random(1000)">1000</button><br>
+    </ul>
 </body>
 <script src="script.js"></script>
 </html>
